@@ -70,10 +70,174 @@ body {
   max-width: 100%;
 }
 
-.skillsSection {
+.skillsSection,
+ .contactSection {
   background-color: #7ed6df;
   color: #fff;
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
   font-weight: 80;
   letter-spacing: 2px;
+}
+
+.skillsSection h2 {
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.aboutImage {
+  position: flex;
+}
+
+.skill {
+  text-align: center;
+  margin-left: 15px;
+}
+
+.skill h4 {
+  margin-top: 20px;
+}
+
+.chart {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  text-align: center;
+}
+
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.chart .percent {
+  color: #333;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.chart .percent:after {
+  content: '%';
+}
+
+.squareItem {
+  margin-top: 30px;
+  position: relative;
+}
+
+.squareInnerContainer {
+  position: relative;
+  justify-content: center;
+  padding: 50px 15px 35px;
+  text-align: center;
+  border: 2px solid #333;
+  border-top: none;
+}
+
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  width: 30%;
+  border-bottom: 2px solid #333;
+}
+
+.squareInnerContainer:before {
+  right: 0px;
+}
+
+.squareInnerContainer:after {
+left: 0px;
+}
+
+.squareContent {
+  display: inline-block;
+}
+
+.squareContent h2 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #7ed6df;
+}
+
+.squareContent h3 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: flex;
+  color: #7ed6df;
+}
+
+.squareContent h6 {
+  font-size: 8px;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: flex;
+  color: #333;
+}
+
+.squareIcon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #7ed6df
+}
+
+.contactButton {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #7ed6df;
+  background-color: #fff;
+}
+
+.footer {
+  font-size: 8px;
+  text-align: center;
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: flex;
+  color: #333;
+}
+
+.filter a {
+  color: #777a84;
+  border: 1px solid #777a84;
+  padding: 10px 15px;
+  display: block;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current {
+  background-color: #7ed6df;
+  border-color: #7ed6df;
+  color: #fff;
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
 }
