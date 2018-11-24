@@ -1,6 +1,6 @@
 body {
   font-size: 14px;
-  color: #333;
+  color: #777a84;
   background-color: #fff;
   letter-spacing: 1px;
 }
@@ -68,6 +68,7 @@ body {
 
 .aboutImage {
   max-width: 100%;
+  position: flex;
 }
 
 .skillsSection,
@@ -84,23 +85,31 @@ body {
 
 .aboutImage {
   position: flex;
+  margin-top: 10px;
 }
 
 .skill {
   text-align: center;
-  margin-left: 15px;
+  padding-left: 20px;
 }
 
 .skill h4 {
-  margin-top: 20px;
+  margin-top: 50px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.portfolioSection {
+  background-color: lightgray;
 }
 
 .chart {
   position: relative;
-  width: 152px;
-  height: 152px;
+  width: 120px;
+  height: 120px;
   display: inline-block;
   text-align: center;
+  border: 2px #7ed6df; 
 }
 
 .chart canvas {
@@ -110,8 +119,9 @@ body {
 }
 
 .chart .percent {
-  color: #333;
+  color: #777a84;
   line-height: 152px;
+  padding-left: 35px;
   display: inline-block;
   font-size: 35px;
 }
@@ -191,10 +201,17 @@ left: 0px;
 
 .contactButton {
   color: #fff;
-  padding: 15px 20px;
+  font-weight: 500;
+  padding: 15px 30px;
   display: inline-block;
   margin-top: 20px;
-  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.btn-linkedin {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
   border-radius: 2px;
 }
 
