@@ -100,6 +100,10 @@ $(document).ready(function() {
 
   });
 
+  var defaults = {
+    preventCaptionOverlap: false
+  }
+
     $("[data-fancybox]").fancybox();
 
     $("#filters a").click(function() {
